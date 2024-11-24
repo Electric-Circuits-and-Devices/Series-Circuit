@@ -1,0 +1,275 @@
+(footprint "Zener-Diode-Plugin"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2 -7.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6df89bde-b34f-46e3-9d55-521caa12e3a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D_Zener"
+		(at 2 -6.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dc7a45f9-4605-4dd8-ba9b-0600ab222199")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Zener-Diode-Plugin"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86735daa-1b9d-41e4-8c14-62ded3ef9e5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85762b52-9107-47a5-b483-789ecbd2c4b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Zener diode"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8aa66bb5-3b42-45ef-a5d6-3d915581a5e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" "D"
+		(at 0 0.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca0c3d53-9db5-43ec-a4f0-a48751d682d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=K 2=A"
+		(at 0 0.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2829f3c4-20f3-4cbb-b514-e1453a6a6535")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 -12.5)
+		(end 3 -12.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill solid)
+		(layer "B.Cu")
+		(uuid "a4acf58c-e4d2-47d3-8ed7-6b66816064c8")
+	)
+	(fp_circle
+		(center 0 12.5)
+		(end 3 12.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill solid)
+		(layer "B.Cu")
+		(uuid "c7b70791-ed09-4e3f-8aae-a77911bdc375")
+	)
+	(fp_line
+		(start -4.775 -0.225)
+		(end -3.025 -1.975)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fa54caed-0fc9-44cf-9bc5-aa1369e273fd")
+	)
+	(fp_line
+		(start -3.025 -1.975)
+		(end 3 -1.975)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3c4eaa82-cfe9-4373-bbcf-37a0b9cb8b26")
+	)
+	(fp_line
+		(start 0 -9.8)
+		(end 0 9.9)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dda3cd10-3b5d-45ed-b8a7-b9e526e5949a")
+	)
+	(fp_line
+		(start 3 -1.975)
+		(end 4.75 -3.725)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b35bffa2-6270-463c-882f-acf31af158d1")
+	)
+	(fp_rect
+		(start -6 -17)
+		(end 6 17)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2da1f3fd-eb49-414c-8545-b254eb2933de")
+	)
+	(fp_circle
+		(center 0 -12.5)
+		(end 2.5 -12.5)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "17d54536-d2b7-4733-8972-c4a1b12213dc")
+	)
+	(fp_circle
+		(center 0 12.5)
+		(end 2.5 12.5)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3a223fc8-0e53-41d0-9376-d7a99f131d14")
+	)
+	(fp_poly
+		(pts
+			(xy -3.375 3.175) (xy 3.375 3.175) (xy 0.125 -2.075)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "7809dcdd-b84e-4c00-a57d-4d2404d54325")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2b0bfd94-7859-40a2-8758-885778f80110")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -12.5)
+		(size 6 6)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "a3858f59-4b0a-4f69-be8a-9064a557fb3b")
+	)
+	(pad "2" thru_hole circle
+		(at 0 12.5)
+		(size 6 6)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "a9549953-ac43-4739-8513-7d29a42e98be")
+	)
+	(model "D:/OneDrive/Documents/KiCad/8.0/3dmodels/24.106.STEP"
+		(offset
+			(xyz 0 12.5 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "D:/OneDrive/Documents/KiCad/8.0/3dmodels/24.106.STEP"
+		(offset
+			(xyz 0 -12.5 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

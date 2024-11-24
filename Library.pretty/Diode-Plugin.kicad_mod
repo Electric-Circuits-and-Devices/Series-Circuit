@@ -1,0 +1,255 @@
+(footprint "Diode-Plugin"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e838339c-9f85-46b2-808f-9197e1abc0fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0ce56e55-7b7c-4cb0-a1e1-044043b1cd7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Diode-Plugin"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58e52cce-8940-4fa1-9081-e7b946bcde22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa4072fc-21ed-4cd1-b82f-464d52261ef7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Diode"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ee3f2d5-66f4-4681-a617-37ac42382f97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" "D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1be62d58-da1d-45ae-8c4e-7a88631dd80b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=K 2=A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78fc3c2f-a00d-478a-a028-5f96f868d174")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 -12.5)
+		(end 2.9 -12.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill solid)
+		(layer "B.Cu")
+		(uuid "a3e68f3a-e927-4c95-87c8-a02d9adaabff")
+	)
+	(fp_circle
+		(center 0 12.5)
+		(end 2.9 12.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill solid)
+		(layer "B.Cu")
+		(uuid "20bdc7b9-8b74-4ef8-8181-2ff476e7dbe6")
+	)
+	(fp_line
+		(start -3.375 -2.5)
+		(end 3.375 -2.5)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9e793c48-e7e9-4184-b075-3e176d3bd09d")
+	)
+	(fp_line
+		(start 0 -9.8)
+		(end 0 9.9)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ca32ffbd-1d95-448a-901b-7bb9fdfb7998")
+	)
+	(fp_rect
+		(start -6 -17)
+		(end 6 17)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "c8ea6f1e-93c7-4af3-9afb-a30bae960109")
+	)
+	(fp_circle
+		(center 0 -12.5)
+		(end 2.5 -12.5)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b97ce1a9-d55e-4728-93ed-0246b058761a")
+	)
+	(fp_circle
+		(center 0 12.5)
+		(end 2.5 12.5)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "94fdd61d-1969-4382-9648-44bd8a22a47a")
+	)
+	(fp_poly
+		(pts
+			(xy -3.375 2.625) (xy 3.375 2.625) (xy 0.125 -2.625)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "31ad8f57-fb20-4cfe-8ab4-2046844462b0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "698fe445-8e0a-4c06-abc4-3a6d318ea261")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -12.5)
+		(size 6.1 6.1)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "f08e191f-a569-4418-9440-81dd805072d4")
+	)
+	(pad "2" thru_hole circle
+		(at 0 12.5)
+		(size 6 6)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "7c12ec56-cb06-4ede-933b-dc92327c2174")
+	)
+	(model "D:/OneDrive/Documents/KiCad/8.0/3dmodels/24.106.STEP"
+		(offset
+			(xyz 0 12.5 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "D:/OneDrive/Documents/KiCad/8.0/3dmodels/24.106.STEP"
+		(offset
+			(xyz 0 -12.5 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

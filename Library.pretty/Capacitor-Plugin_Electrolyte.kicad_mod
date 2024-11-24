@@ -1,0 +1,238 @@
+(footprint "Capacitor-Plugin_Electrolyte"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2192c46a-3bce-48fb-a8a4-0e50fe7ad320")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_Small"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c0414ac6-1d88-4bdd-b472-7f8adc65c1e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Capacitor-Plugin_Electrolyte"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04582986-e49f-467e-81c3-bbc225c61735")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63fa3f61-3216-4e7d-943c-c5f8179917b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Unpolarized capacitor, small symbol"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e120aba-4956-4f37-95ee-e9cfd1502cff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 -12.5)
+		(end 2.9 -12.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill solid)
+		(layer "B.Cu")
+		(uuid "0b4285c4-ee3d-4e11-9baa-5b3e4e6dd2bc")
+	)
+	(fp_circle
+		(center 0 12.5)
+		(end 2.9 12.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill solid)
+		(layer "B.Cu")
+		(uuid "0983a555-8635-4999-a515-379139a1e535")
+	)
+	(fp_line
+		(start -3.375 -1.1)
+		(end 3.375 -1.1)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1c7bb3ce-4815-480e-b165-ffd2d4767cb2")
+	)
+	(fp_line
+		(start 0 -9.8)
+		(end 0 -1.1)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "77b48670-ed71-42c8-b3a0-bc28af268acf")
+	)
+	(fp_line
+		(start 0 1.35)
+		(end 0 9.9)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6cc1ef3b-42a6-4b01-a2e0-53540c02444d")
+	)
+	(fp_rect
+		(start -6 -17)
+		(end 6 17)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1a606613-bf80-4fc4-a5b7-197a73ca915b")
+	)
+	(fp_arc
+		(start -3.465228 2.785344)
+		(mid 0 1.35)
+		(end 3.465228 2.785344)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "abd8c77e-64c3-46b2-a7a0-f07a42c51df1")
+	)
+	(fp_circle
+		(center 0 -12.5)
+		(end 2.5 -12.5)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "90746e47-2239-49de-a086-a84e32949140")
+	)
+	(fp_circle
+		(center 0 12.5)
+		(end 2.5 12.5)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "cb84d6f7-abb5-4a19-ab79-94db59de9cb8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "153e6e81-7fba-4a22-808d-a59a8db74390")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -12.5)
+		(size 6 6)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "828ac20b-d853-4eed-a417-78628620b434")
+	)
+	(pad "2" thru_hole circle
+		(at 0 12.5)
+		(size 6 6)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "fb95ecc8-712e-4839-be94-78fc920407b1")
+	)
+	(model "D:/OneDrive/Documents/KiCad/8.0/3dmodels/24.106.STEP"
+		(offset
+			(xyz 0 12.5 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "D:/OneDrive/Documents/KiCad/8.0/3dmodels/24.106.STEP"
+		(offset
+			(xyz 0 -12.5 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
